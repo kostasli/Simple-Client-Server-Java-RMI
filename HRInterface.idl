@@ -1,0 +1,10 @@
+interface HRInterface{
+
+    string availableRooms();
+
+    string bookRoom(in string type, in string number, in string name);
+
+    string guests();
+
+    string cancelRoom(in string type, in string number, in string name);
+}
